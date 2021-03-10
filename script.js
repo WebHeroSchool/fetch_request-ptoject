@@ -2,6 +2,8 @@ let body = document.body;
 let string = window.location.search;
 let url = 'https://api.github.com/users/Lesenok2807';
 let url = window.location.toString();
+let avatar_url = 'https://avatars.githubusercontent.com/u/73076953?v=4';
+let html_url = 'https://github.com/Lesenok2807';
 
 fetch(url)
 const getNameFromUrl = (url) => {
